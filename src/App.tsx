@@ -1,8 +1,10 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AudioAnalyzer from './components/audio-analyzer/AudioAnalyzer.component';
 
 function App() {
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <AudioAnalyzer />
+
       </header>
     </div>
   );
